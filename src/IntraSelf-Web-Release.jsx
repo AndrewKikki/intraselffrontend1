@@ -2105,7 +2105,7 @@ function DaseinApp({ savedSessions, setSavedSessions, tier }) {
 // to the backend too (see apiRequest below and its call sites in the root component),
 // with local state + localStorage still updated immediately so the UI never waits on
 // the network; the sync to the server happens in the background.
-const BACKEND_URL = "https://intraselfbackend-production.up.railway.app/api";
+const BACKEND_URL = "https://api.intraself.net/api";
 
 // Thin fetch wrapper for authenticated calls: attaches the Bearer token, JSON-encodes
 // the body, and throws on non-2xx so callers can .catch() a single error path. Sync
