@@ -129,44 +129,44 @@ function HomePage({ onSelect, user, onAccountClick }) {
 const S1_AXIS_QUESTIONS = [
   { id:"s1a1", section:1, group:"S1a", aAxis:"SeNi",
     text:"Your relationship with reality is best described as…",
-    a:"A vivid, immediate engagement with what is present, beneath which runs a quiet, convergent sense of where things are heading",
-    b:"A restless reach toward what might be possible, grounded by a deep store of personal experience and established pattern" },
+    a:"Fully present to what's happening right now, with a quiet sense of where things are headed",
+    b:"Drawn toward new possibilities, grounded by everything you've already been through" },
   { id:"s1a2", section:1, group:"S1a", aAxis:"SeNi",
-    text:"The way you absorb the world is more characterised by…",
-    a:"Intense presence to what is actually here — sensation, atmosphere, the concrete — combined with an undercurrent of long-range, focused intuition",
-    b:"A deep reliance on what you've lived and tested before, quietly opened outward by a pull toward new connections and untried possibilities" },
+    text:"You take in the world mostly through…",
+    a:"Your senses — noticing what's actually in front of you right now",
+    b:"Memory — trusting what you've already learned from experience" },
   { id:"s1a3", section:1, group:"S1a", aAxis:"SeNi",
-    text:"When you understand something deeply, it is usually because…",
-    a:"Something in you had already been converging on it for a while, and encountering it directly simply confirmed what you'd sensed was coming",
-    b:"You recognised it against a long accumulation of lived experience, then let a wider field of association draw out its fuller implications" },
+    text:"When you understand something deeply, it's usually because…",
+    a:"Something in you had been putting it together before you fully realised it",
+    b:"You recognised it from everything you've already been through" },
   { id:"s1a4", section:1, group:"S1a", aAxis:"SeNi",
-    text:"Your orientation toward the unknown is more like…",
-    a:"Trusting a slow, convergent intuition about where it leads, confirmed once you make direct contact with what's actually there",
-    b:"Mapping it imaginatively from many angles, then filtering what you find through a careful memory of comparable situations" },
+    text:"Facing the unknown, you tend to…",
+    a:"Trust an instinct that's been quietly building about where it leads",
+    b:"Explore it from many angles, comparing it to things you've seen before" },
   { id:"s1a5", section:1, group:"S1a", aAxis:"NeSi",
     text:"At your most natural, your mind…",
-    a:"Fans outward into possibility and connection, while anchoring itself in the familiar rhythms and patterns of lived experience",
-    b:"Stays close to what is real and present, while privately following a single thread of intuition deeper than it can easily express" },
+    a:"Reaches outward toward new connections, while staying anchored in familiar experience",
+    b:"Stays close to what's real, while quietly following a single strong instinct" },
   { id:"s1b1", section:1, group:"S1b", aAxis:"TeFi",
-    text:"The way you evaluate situations is more naturally shaped by…",
-    a:"Objective criteria — effectiveness, logical structure, measurable outcomes — informed by a private moral sense that quietly sets the limits",
-    b:"The felt quality of relationships and human meaning — what matters to people — checked by an internal logical rigour that operates below the surface" },
+    text:"You evaluate situations mostly through…",
+    a:"Clear standards — logic, effectiveness, measurable results",
+    b:"Felt connection — what matters most to the people involved" },
   { id:"s1b2", section:1, group:"S1b", aAxis:"TeFi",
-    text:"When you judge whether something is right or good, you draw primarily on…",
-    a:"External standards of truth, coherence, and effectiveness — alongside a personal conviction about what is ultimately worth pursuing",
-    b:"A precise internal logic that tests whether something truly holds together, alongside an attunement to what feels humanly meaningful in the outcome" },
+    text:"When judging right from good, you rely on…",
+    a:"External standards of truth and effectiveness",
+    b:"Your own internal logic — testing whether it truly holds together" },
   { id:"s1b3", section:1, group:"S1b", aAxis:"TeFi",
-    text:"Your approach to the world around you is more oriented toward…",
-    a:"Living from a private inner conviction about what matters, which you translate outward through clear structure and measurable standards",
-    b:"Testing the world against an internal analytical framework for coherence and consistency, while staying attuned to its human and relational dimensions" },
+    text:"You move through the world mostly by…",
+    a:"Living from a private, personal sense of what matters",
+    b:"Testing things against your own internal logic" },
   { id:"s1b4", section:1, group:"S1b", aAxis:"TeFi",
-    text:"What you trust most when making important decisions is…",
-    a:"A deep personal sense of what truly matters, worked out through clear reasoning and a regard for empirical evidence",
-    b:"A combination of felt attunement to the people involved and a careful internal logic you apply privately" },
+    text:"What you trust most in big decisions is…",
+    a:"A deep personal conviction about what truly matters",
+    b:"How the people involved actually feel about it" },
   { id:"s1b5", section:1, group:"S1b", aAxis:"FeTi",
     text:"The deepest tension in how you engage the world is between…",
-    a:"An inner demand for logical coherence and personal integrity, and an equally strong pull toward human connection and shared meaning",
-    b:"A private moral core that asks whether something is truly good, and the drive to get things right — objectively, structurally, effectively" },
+    a:"Needing things to make logical sense, and needing real human connection",
+    b:"A private sense of what's good, and wanting to get things objectively right" },
 ];
 
 // Section 2: Temperament (10 questions, binary A/B — no Neither)
@@ -181,7 +181,7 @@ const S2_TEMP_QUESTIONS = [
   { id:"s2b1", section:2, group:"S2b", text:"In daily life, you tend to prefer…",                  a:"Flexibility — keeping options open as long as possible",                   b:"Resolution — reaching conclusions and having things settled" },
   { id:"s2b2", section:2, group:"S2b", text:"When plans change at the last minute, you…",          a:"Adapt easily — spontaneity suits you",                                      b:"Find it uncomfortable — you prefer to know what's coming" },
   { id:"s2b3", section:2, group:"S2b", text:"You feel most comfortable when…",                     a:"Things are open — you can still explore and adjust",                       b:"Things are decided — you know where you stand and what to do" },
-  { id:"s2b4", section:2, group:"S2b", text:"Your natural orientation is more toward…",            a:"Perceiving — observing, absorbing, staying responsive",                    b:"Judging — evaluating, deciding, acting on conclusions" },
+  { id:"s2b4", section:2, group:"S2b", text:"Your natural orientation is more toward…",            a:"Staying open — observing, absorbing, adjusting as you go",                 b:"Reaching conclusions — evaluating, deciding, and acting on them" },
   { id:"s2b5", section:2, group:"S2b", text:"Deadlines make you…",                                 a:"More creative — pressure opens something up",                              b:"More focused — you prefer to be ahead of them" },
 ];
 
@@ -189,53 +189,53 @@ const S2_TEMP_QUESTIONS = [
 // 8 pairs × 3 questions each
 const S3_PROCESS_QUESTIONS = [
   // Se vs Si
-  { id:"s3a1", section:3, group:"SeVsSi", text:"You are more alive to…",          a:"The vivid, present-moment world — what is here now",                  b:"The familiar, remembered world — what has been and recurs" },
-  { id:"s3a2", section:3, group:"SeVsSi", text:"You trust experience that is…",   a:"Immediate and direct — happening in front of you",                    b:"Accumulated and tested — confirmed across many instances" },
-  { id:"s3a3", section:3, group:"SeVsSi", text:"Your attention is drawn to…",     a:"What is changing and immediate in your environment",                  b:"What is reliable and established in your environment" },
+  { id:"s3a1", section:3, group:"SeVsSi", text:"You feel most alive when…",       a:"Something is happening right in front of you",                        b:"Something familiar is happening again" },
+  { id:"s3a2", section:3, group:"SeVsSi", text:"You trust experience that is…",   a:"Fresh — happening right now",                                          b:"Proven — something you've seen work before" },
+  { id:"s3a3", section:3, group:"SeVsSi", text:"Your attention goes to…",         a:"What's changing around you",                                           b:"What's steady and familiar around you" },
   // Ne vs Ni
-  { id:"s3b1", section:3, group:"NeVsNi", text:"Your imagination tends to…",      a:"Branch outward — generating possibilities in many directions",        b:"Converge inward — focusing toward a single deep insight" },
-  { id:"s3b2", section:3, group:"NeVsNi", text:"Insight arrives for you as…",     a:"Sudden connections between previously unrelated things",               b:"A slow crystallisation of something felt long before it was named" },
-  { id:"s3b3", section:3, group:"NeVsNi", text:"You are more energised by…",      a:"Open possibility — many paths, none yet chosen",                      b:"Focused depth — one path followed to its end" },
+  { id:"s3b1", section:3, group:"NeVsNi", text:"Your imagination tends to…",      a:"Spread out — chasing many possibilities at once",                     b:"Narrow down — settling on one idea and going deep" },
+  { id:"s3b2", section:3, group:"NeVsNi", text:"Insight usually hits you as…",    a:"A sudden connection between two unrelated things",                    b:"A feeling that slowly turns into certainty" },
+  { id:"s3b3", section:3, group:"NeVsNi", text:"You feel more energised by…",     a:"Having many options still open",                                       b:"Following one idea all the way through" },
   // Te vs Ti
-  { id:"s3c1", section:3, group:"TeVsTi", text:"When reasoning, you lean toward…",a:"External standards — what the evidence and results show",              b:"Internal logic — what your own framework determines is coherent" },
-  { id:"s3c2", section:3, group:"TeVsTi", text:"You find it more natural to…",    a:"Organise systems and people toward measurable outcomes",               b:"Analyse structures until you understand exactly how they work" },
-  { id:"s3c3", section:3, group:"TeVsTi", text:"You are persuaded by arguments that…", a:"Demonstrate real-world effectiveness",                            b:"Hold together with internal consistency" },
+  { id:"s3c1", section:3, group:"TeVsTi", text:"When you reason something out, you lean on…", a:"What the evidence and results actually show",           b:"Whether it makes sense by your own logic" },
+  { id:"s3c2", section:3, group:"TeVsTi", text:"It comes more naturally to you to…", a:"Organise people or systems to get results",                         b:"Figure out exactly how something works" },
+  { id:"s3c3", section:3, group:"TeVsTi", text:"You're convinced by arguments that…", a:"Actually work in the real world",                                  b:"Don't contradict themselves" },
   // Fe vs Fi
-  { id:"s3d1", section:3, group:"FeVsFi", text:"Your moral sense is mostly shaped by…", a:"Shared values and the needs of the group",                       b:"A private inner standard independent of outside opinion" },
-  { id:"s3d2", section:3, group:"FeVsFi", text:"When someone is in distress, you…",     a:"Attune to the room and respond to what the situation needs",      b:"Draw on your own felt response and offer it honestly" },
-  { id:"s3d3", section:3, group:"FeVsFi", text:"Authenticity for you means…",            a:"Being genuinely present and attuned to others",                  b:"Being true to your own inner experience regardless of others" },
+  { id:"s3d1", section:3, group:"FeVsFi", text:"Your sense of right and wrong comes mostly from…", a:"What the people around you need or value",         b:"A personal standard that doesn't depend on anyone else's opinion" },
+  { id:"s3d2", section:3, group:"FeVsFi", text:"When someone is upset, you…",     a:"Read the room and respond to what's needed",                          b:"Respond honestly with what you actually feel" },
+  { id:"s3d3", section:3, group:"FeVsFi", text:"Being real, to you, means…",      a:"Genuinely showing up for the people around you",                       b:"Staying true to yourself no matter what others think" },
   // Se vs Ne
-  { id:"s3e1", section:3, group:"SeVsNe", text:"You are more drawn to…",          a:"What is concretely present — tangible, immediate, real",              b:"What is abstractly possible — hypothetical, latent, connective" },
-  { id:"s3e2", section:3, group:"SeVsNe", text:"In conversation you prefer…",     a:"What is actually happening — specific events, real experiences",      b:"What might be possible — ideas, patterns, what-ifs" },
-  { id:"s3e3", section:3, group:"SeVsNe", text:"You engage the unknown by…",      a:"Moving into it through direct sensory contact",                       b:"Mapping it through imaginative association and inference" },
+  { id:"s3e1", section:3, group:"SeVsNe", text:"You're more drawn to…",           a:"What's actually right in front of you",                                b:"What could be, even if it isn't real yet" },
+  { id:"s3e2", section:3, group:"SeVsNe", text:"In conversation you'd rather talk about…", a:"What actually happened — real events, real details",           b:"What might happen — ideas, theories, possibilities" },
+  { id:"s3e3", section:3, group:"SeVsNe", text:"You deal with the unknown by…",   a:"Diving in and figuring it out hands-on",                              b:"Imagining different ways it could play out" },
   // Si vs Ni
-  { id:"s3f1", section:3, group:"SiVsNi", text:"Your inner life is anchored by…", a:"Personal history — what you have lived, tested, and verified",        b:"A felt orientation — a deep sense of where things are heading" },
-  { id:"s3f2", section:3, group:"SiVsNi", text:"You navigate uncertainty by…",    a:"Drawing on precedent — what worked in comparable situations",         b:"Trusting your impression — what the situation seems to be calling for" },
-  { id:"s3f3", section:3, group:"SiVsNi", text:"The future feels to you like…",   a:"An extension of established patterns you already understand",         b:"A convergence point you can sense before you can articulate it" },
+  { id:"s3f1", section:3, group:"SiVsNi", text:"What grounds you most is…",       a:"Your own past — what you've lived through and know works",            b:"A gut sense of where things are heading" },
+  { id:"s3f2", section:3, group:"SiVsNi", text:"When things are uncertain, you rely on…", a:"What's worked in similar situations before",                    b:"A hunch about what this situation actually needs" },
+  { id:"s3f3", section:3, group:"SiVsNi", text:"The future feels to you like…",   a:"More of the patterns you already recognise",                          b:"Something you can sense coming before you can explain it" },
   // Te vs Fe
-  { id:"s3g1", section:3, group:"TeVsFe", text:"When leading, you naturally…",    a:"Establish clear goals, standards, and accountability",                b:"Read the group's energy, build trust, and hold people together" },
-  { id:"s3g2", section:3, group:"TeVsFe", text:"You evaluate situations primarily through…", a:"Logic and effectiveness — what works",                       b:"Feeling and relationship — what matters to people" },
-  { id:"s3g3", section:3, group:"TeVsFe", text:"You are more concerned with…",    a:"Getting things right — accuracy, results, structure",                 b:"Getting things good — care, harmony, shared meaning" },
+  { id:"s3g1", section:3, group:"TeVsFe", text:"When you're leading, you naturally…", a:"Set clear goals and hold people to them",                          b:"Read the room and keep people connected" },
+  { id:"s3g2", section:3, group:"TeVsFe", text:"You judge situations mainly by…", a:"Whether it's logical and effective",                                   b:"Whether it feels right for the people involved" },
+  { id:"s3g3", section:3, group:"TeVsFe", text:"You care more about…",           a:"Getting it right — accuracy and results",                              b:"Getting it good — care and harmony" },
   // Ti vs Fi
-  { id:"s3h1", section:3, group:"TiVsFi", text:"Your inner critic sounds like…",  a:"A logician — pointing out what doesn't hold together",                b:"A moralist — pointing out what doesn't feel right or true" },
-  { id:"s3h2", section:3, group:"TiVsFi", text:"You resist ideas that…",          a:"Contradict your internal model of how things work",                   b:"Conflict with what you know to be personally true or important" },
-  { id:"s3h3", section:3, group:"TiVsFi", text:"Your deepest certainties are…",   a:"Structural — grounded in logical frameworks you've built",             b:"Personal — grounded in felt convictions that precede argument" },
+  { id:"s3h1", section:3, group:"TiVsFi", text:"Your inner critic mostly points out when…", a:"Something doesn't logically add up",                        b:"Something doesn't feel right or true" },
+  { id:"s3h2", section:3, group:"TiVsFi", text:"You push back on ideas that…",    a:"Don't fit how you understand things to work",                         b:"Go against what you personally believe matters" },
+  { id:"s3h3", section:3, group:"TiVsFi", text:"You're most certain about things when…", a:"You've worked out the logic yourself",                          b:"You feel it's true, even before you can explain why" },
   // Se vs Ni
-  { id:"s3i1", section:3, group:"SeVsNi", text:"When something captures you fully, it is more often…", a:"A vivid sensory reality you can immediately touch, see, or act within", b:"A quiet conviction that has been converging inside you for some time" },
-  { id:"s3i2", section:3, group:"SeVsNi", text:"You feel most yourself when…", a:"Engaging directly and immediately with the world in front of you",     b:"Following an inward pull toward a single, deepening realisation" },
-  { id:"s3i3", section:3, group:"SeVsNi", text:"Your sense of what's real is grounded in…", a:"What can be perceived and acted on right now",                b:"What has slowly crystallised into certainty beneath the surface" },
+  { id:"s3i1", section:3, group:"SeVsNi", text:"What fully captures your attention is usually…", a:"Something real you can see, touch, or act on right now",     b:"A feeling that's been quietly building inside you" },
+  { id:"s3i2", section:3, group:"SeVsNi", text:"You feel most like yourself when…", a:"You're right in the middle of what's happening",                    b:"You're following a hunch that keeps getting clearer" },
+  { id:"s3i3", section:3, group:"SeVsNi", text:"You trust something is real when…", a:"You can perceive it and act on it right now",                       b:"It's slowly become certain to you, even without proof" },
   // Ne vs Si
-  { id:"s3j1", section:3, group:"NeVsSi", text:"Faced with a new situation, you're drawn to…", a:"The many directions it could branch into — untested possibilities", b:"How it compares to patterns you've already lived and confirmed" },
-  { id:"s3j2", section:3, group:"NeVsSi", text:"You feel most resourceful when…", a:"Generating fresh connections and possibilities on the fly",           b:"Drawing on a deep well of remembered, tested experience" },
-  { id:"s3j3", section:3, group:"NeVsSi", text:"Change feels most natural to you when it…", a:"Opens new, unexplored territory",                             b:"Builds carefully on what has already proven reliable" },
+  { id:"s3j1", section:3, group:"NeVsSi", text:"In a new situation, you're drawn to…", a:"All the different directions it could go",                        b:"How it compares to things you've already been through" },
+  { id:"s3j2", section:3, group:"NeVsSi", text:"You feel most resourceful when…", a:"You're coming up with new ideas on the spot",                          b:"You're drawing on experience you already trust" },
+  { id:"s3j3", section:3, group:"NeVsSi", text:"Change feels right to you when it…", a:"Opens up something completely new",                                 b:"Builds on what's already worked before" },
   // Fi vs Te
-  { id:"s3k1", section:3, group:"FiVsTe", text:"When deciding what matters, you rely on…", a:"A private conviction that doesn't need outside validation",        b:"Clear, external evidence of what actually works" },
-  { id:"s3k2", section:3, group:"FiVsTe", text:"You measure a good decision by whether it…", a:"Feels true to something you hold privately and deeply",           b:"Produces effective, verifiable results" },
-  { id:"s3k3", section:3, group:"FiVsTe", text:"Your sense of integrity comes from…", a:"Staying faithful to an inner standard, regardless of outcome",       b:"Achieving outcomes that meet clear, objective standards" },
+  { id:"s3k1", section:3, group:"FiVsTe", text:"When deciding what matters, you rely on…", a:"A personal conviction you don't need to justify to anyone",   b:"Clear proof that something actually works" },
+  { id:"s3k2", section:3, group:"FiVsTe", text:"You know a decision was good when it…", a:"Feels true to something you value deeply",                        b:"Actually gets results" },
+  { id:"s3k3", section:3, group:"FiVsTe", text:"You feel like you have integrity when you…", a:"Stay true to your own values, no matter the outcome",         b:"Meet a clear, objective standard" },
   // Ti vs Fe
-  { id:"s3l1", section:3, group:"TiVsFe", text:"You test an idea by asking whether it…", a:"Holds together logically, on its own internal terms",              b:"Serves and strengthens the people it affects" },
-  { id:"s3l2", section:3, group:"TiVsFe", text:"In a disagreement, you're more focused on…", a:"Whether the reasoning is actually sound",                        b:"Whether the relationship stays intact" },
-  { id:"s3l3", section:3, group:"TiVsFe", text:"Your inner compass responds most to…", a:"Precision — does this actually make sense",                        b:"Attunement — does this feel right for everyone involved" },
+  { id:"s3l1", section:3, group:"TiVsFe", text:"You test an idea by asking…",     a:"Does this actually make logical sense?",                               b:"Does this help the people it affects?" },
+  { id:"s3l2", section:3, group:"TiVsFe", text:"In an argument, you care more about…", a:"Whether the reasoning holds up",                                  b:"Whether the relationship stays okay" },
+  { id:"s3l3", section:3, group:"TiVsFe", text:"You trust your gut more when something is…", a:"Logically sound",                                            b:"Right for everyone involved" },
 ];
 
 const ALL_QUESTIONS = [...S1_AXIS_QUESTIONS, ...S2_TEMP_QUESTIONS, ...S3_PROCESS_QUESTIONS];
@@ -272,78 +272,86 @@ const ALL_TYPES = {
 const SUBSTANCE_DESC = {
   Ignis: {
     symbol:"🜂", name:"Fire", latin:"Substantia Ignis",
-    desc:`Ignis is the substance of immediacy and structure. Its irrational axis pairs extroverted Sensing (Se) with introverted Intuition (Ni): the psyche moves between a vivid, present-tense engagement with the physical world and a deep, private undercurrent of pattern and foresight. Se reaches outward into sensation — concrete, tactile, alive to what is happening now — while Ni works below the surface, slowly crystallising impressions into convergent visions the Ignis type may struggle to fully articulate. These two are not opposites but complements: the sharpness of the present and the gravity of the unseen.
+    desc:`Ignis pairs two ways of taking in the world (Se and Ni) with two ways of judging it (Te and Fi).
 
-Its rational axis pairs extroverted Thinking (Te) with introverted Feeling (Fi): the psyche evaluates through measurable, external criteria — effectiveness, structure, results — while privately anchored to a personal moral core that rarely speaks but never yields. Te organises the world; Fi judges whether it is worth organising at all.
+On the perceiving side: you're fully present to what's happening right now (Se) — direct, physical, alive to the moment. Underneath that, a quieter part of you is always converging on where things are heading (Ni), even when you can't fully explain why you sense it. These aren't opposites — the sharpness of the present and the pull of the unseen work together.
 
-Together, the four functions give Ignis its character: a type grounded in reality, driven by clarity, yet haunted by depth — capable of great force and hidden loyalty in equal measure.`,
+On the judging side: you evaluate the world by clear, external standards — logic, effectiveness, results (Te) — while privately holding a personal sense of what's right that rarely announces itself but never really bends (Fi). Te organises the world; Fi decides whether it's worth organising at all.
+
+Put together: Ignis is grounded in reality and driven by clarity, but carries real depth beneath the surface — capable of real force, and a quiet loyalty most people never see.`,
   },
   Aer: {
     symbol:"🜁", name:"Air", latin:"Substantia Aeris",
-    desc:`Aer is the substance of presence and perception. Its irrational axis pairs extroverted Sensing (Se) with introverted Intuition (Ni): Aer types are acutely attuned to the physical and social world as it unfolds in real time, reading bodies, atmospheres, and shifts in energy with rare sensitivity. Beneath this responsiveness runs Ni — an unconscious, convergent intelligence that draws meaning from accumulated impressions, surfacing as instinct or sudden certainty. Where Se makes Aer types alive to the moment, Ni gives their experience depth without their always knowing why.
+    desc:`Aer pairs two ways of taking in the world (Se and Ni) with two ways of judging it (Fe and Ti).
 
-Its rational axis pairs extroverted Feeling (Fe) with introverted Thinking (Ti): Aer evaluates through the emotional field of the group — harmonising, attuning, and shaping social reality — while Ti operates quietly inside, constructing precise internal frameworks and noting inconsistencies that warmth alone cannot resolve. Fe is the face Aer presents to the world; Ti is the mind that monitors whether that face is telling the truth.
+You read people, rooms, and moments with real sensitivity (Se) — atmosphere, body language, and shifts in energy rarely escape you. Underneath that runs Ni, a quieter intelligence that draws meaning from everything you've noticed, often surfacing as a sudden hunch or certainty you can't fully trace.
 
-The result is a substance that is warm and alert on the surface, complex and self-correcting within — a psyche that touches others deeply and asks, in private, whether the touch was real.`,
+You evaluate through the emotional temperature of the group (Fe) — attuning, harmonising, shaping how a room feels — while a private, precise logic (Ti) runs quietly underneath, checking whether the warmth you're offering actually holds up.
+
+Put together: warm and alert on the surface, complex and self-correcting underneath — someone who touches people deeply, and privately asks whether the connection was real.`,
   },
   Terra: {
     symbol:"🜃", name:"Earth", latin:"Substantia Terrae",
-    desc:`Terra is the substance of possibility and precision. Its irrational axis pairs extroverted Intuition (Ne) with introverted Sensing (Si): Terra types project outward into a field of ramifying connections and hypothetical angles — always finding the next idea, the overlooked link, the unexpected parallel — while Si anchors them inwardly to a vast storehouse of personal experience, precedent, and procedure. Ne sees what could be; Si remembers what has been. The tension between them gives Terra its distinctive rhythm: expansive speculation grounded by the weight of the already-known.
+    desc:`Terra pairs two ways of taking in the world (Ne and Si) with two ways of judging it (Te and Fi).
 
-Its rational axis pairs extroverted Thinking (Te) with introverted Feeling (Fi): Terra organises its proliferating ideas through external structure — frameworks, systems, outputs that can be measured and shared — while Fi holds the interior standard, the quiet conviction about what matters and what does not, which no argument fully overrides. Te drives Terra toward productivity; Fi ensures the product means something.
+You're drawn outward toward possibility (Ne) — new ideas, unexpected links, the next thing worth exploring — while Si holds a deep well of personal experience and precedent that keeps you grounded. Ne sees what could be; Si remembers what's already been tried.
 
-The result is a substance that builds — concepts, systems, bodies of work — from a foundation of personal conviction, always generating more than it finishes, and always finishing what it most cares about.`,
+You organise your ideas through visible structure and measurable output (Te), while a private conviction (Fi) quietly decides which of those ideas actually matter enough to finish.
+
+Put together: someone who builds — always generating more than they finish, but finishing what they genuinely care about.`,
   },
   Aqua: {
     symbol:"🜄", name:"Water", latin:"Substantia Aquae",
-    desc:`Aqua is the substance of meaning and connection. Its irrational axis pairs extroverted Intuition (Ne) with introverted Sensing (Si): Aqua types move through the world by sensing potential — in people, in ideas, in the unspoken space between things — while Si holds a deep internal record of felt experience that shapes how new possibilities are received. Ne is the reaching out; Si is the returning home. Together they create a psyche that is always discovering and always remembering, weaving the new and the familiar into living pattern.
+    desc:`Aqua pairs two ways of taking in the world (Ne and Si) with two ways of judging it (Fe and Ti).
 
-Its rational axis pairs extroverted Feeling (Fe) with introverted Thinking (Ti): Aqua evaluates through the felt quality of human connection — empathy, attunement, the sense of whether a situation is warm or cold, alive or dead — while Ti quietly constructs the internal logic that makes sense of what feeling alone cannot resolve. Fe flows outward toward people; Ti holds the thread of coherence within. The two rarely announce themselves separately; in Aqua, they are most naturally intertwined.
+You move through the world sensing potential — in people, in ideas, in what's unsaid (Ne) — while Si holds onto the felt weight of past experience, shaping how new things land for you. Ne reaches outward; Si returns home.
 
-The result is a substance that is at once porous and principled — a psyche that absorbs the world richly, processes it with invisible care, and gives back something more shaped than what it received.`,
+You evaluate through the felt quality of connection — warmth, empathy, whether something feels alive or not (Fe) — while a quiet internal logic (Ti) makes sense of what feeling alone can't resolve.
+
+Put together: someone porous and principled at once — absorbing the world deeply, and giving back something more shaped than what they took in.`,
   },
 };
 
 // Per-type portrait: how Substance and Temperament interact as a person/psyche
 const TYPE_DESC = {
-  "Ignis Rubeus":    `The Ignis Rubeus psyche leads with Se — raw, embodied, fully present. The world is met with immediacy and appetite; reality is primary, abstraction secondary. Fi operates as the hidden moral gravity beneath this extroversion: values that are felt rather than announced, personal rather than negotiated. Te lives in the Anima — capable of decisive organisation when roused, but not the primary mode. Ni shadows the whole from below, supplying occasional flashes of convergent vision that can feel unwelcome or uncanny. This type tends to manifest as someone intensely alive to the present, privately principled, and occasionally surprised by how deeply they see.`,
+  "Ignis Rubeus":    `You lead with Se: present, physical, and quick to act — reality comes first, ideas second. Underneath that sits Fi, a private moral compass that's felt rather than announced — your values aren't up for debate, they just are. Te becomes available in your Anima: when something really matters, you can organise and drive things forward with real decisiveness, even though it's not your default mode. Ni sits furthest from view, in your Umbra — every so often a flash of deep insight arrives uninvited, and can feel almost unsettling in how sure it is. Overall: someone intensely alive to the present, quietly principled, and occasionally surprised by how much they see.`,
 
-  "Ignis Nigrus":    `The Ignis Nigrus psyche leads with Fi — a sovereign inner life that evaluates the world by personal moral standard before permitting engagement with it. Se is close behind: the values are embodied, not abstract, and this type moves through physical reality with conviction and directness. The Anima is Ni — meaning that a deep, convergent vision occasionally surfaces uninvited, pulling the type toward complexity they would prefer to resolve into clarity. Te shadows from the unconscious, appearing as frustration with inefficiency or a suppressed drive for external control. This is a type of intense interiority that meets the world with force when its values are engaged.`,
+  "Ignis Nigrus":    `You lead with Fi: a private, sovereign inner compass that judges the world by personal conviction before you engage with it. Se supports this closely in your Persona — your values aren't abstract, you live them out directly and physically. Ni surfaces in your Anima: occasionally a deep, complicated vision arrives uninvited, pulling you toward complexity you'd rather resolve into something simpler. Te sits in your Umbra — showing up as frustration with inefficiency, or a suppressed urge to take control of external things. Overall: intense interiority that meets the world with real force once your values are engaged.`,
 
-  "Ignis Albus":     `The Ignis Albus psyche leads with Te — the world is understood through structure, outcome, and effective organisation. Ni sits close in the Persona: intuitive foresight informs strategy, and this type often knows where things are heading before others do. Se lives in the Anima — the body, the immediate, the physical — available but not primary, emerging most clearly in periods of stress or flow. Fi shadows from below, a private emotional world that is rarely displayed but never absent, and which can surface as unexpectedly strong conviction when least expected. This is a type of organised intelligence, forward-looking and decisive, with a hidden depth of feeling.`,
+  "Ignis Albus":     `You lead with Te: you understand the world through structure, results, and effective organisation. Ni supports this closely in your Persona — an intuitive foresight that often lets you see where things are heading before others do. Se becomes available in your Anima: the physical, immediate world — not your default mode, but it opens up especially under stress or in flow. Fi sits in your Umbra — a private emotional world you rarely show, which can surface as surprisingly strong conviction when you least expect it. Overall: organised, forward-looking, decisive — with hidden emotional depth.`,
 
-  "Ignis Caeruleus": `The Ignis Caeruleus psyche leads with Ni — a single, convergent stream of inner knowing that observes the world from a depth others rarely reach. Te supports this as the Persona: the vision finds expression through organisation and structural thought, making the interior legible to the outside world. Fi lives in the Anima, providing an emotional undercurrent that quietly shapes what the type considers worth thinking about at all. Se shadows from the unconscious — the external, sensory world is both underdeveloped and magnetically compelling, and this type may oscillate between aesthetic intensity and a sense that physical reality remains somehow foreign. This is a type of sustained depth, strategic organisation, and private tenderness.`,
+  "Ignis Caeruleus": `You lead with Ni: a single, deep stream of inner knowing that reads the world from underneath its surface. Te supports this in your Persona — turning your inner vision into structure and organised thought that others can actually follow. Fi becomes available in your Anima: a quiet emotional undercurrent that shapes what you consider worth thinking about in the first place. Se sits furthest away, in your Umbra — the outer, physical world can feel both underdeveloped and strangely magnetic, and you may swing between intense aesthetic experience and a sense that physical reality is somehow foreign. Overall: sustained depth, strategic thinking, and private tenderness.`,
 
-  "Aer Rubeus":      `The Aer Rubeus psyche leads with Se, meeting the world through acute, present-tense perception of atmosphere, body, and social energy. Ti provides the Persona: a precise internal logic that this type uses to make sense of what their senses are absorbing, calibrating impressions with quiet intellectual rigour. Fe occupies the Anima — warmth and social attunement are available but not primary, emerging most naturally in close relationships or emotionally significant moments. Ni shadows below, occasionally surfacing as uncanny foresight or an unsettled sense of where things are going. This is a type of sharp environmental awareness and quiet analytical depth, often warmer than they appear and more systematic than they feel.`,
+  "Aer Rubeus":      `You lead with Se: sharply tuned to atmosphere, body language, and social energy as it happens in real time. Ti supports this closely in your Persona — a precise internal logic that helps you make sense of everything you're picking up, calibrated quietly and rigorously. Fe becomes available in your Anima: warmth and social attunement aren't your default, but they show up naturally in close relationships or emotionally significant moments. Ni sits in your Umbra — occasionally surfacing as uncanny foresight, or an unsettled feeling about where things are heading. Overall: sharp awareness of your surroundings, with quiet analytical depth underneath — warmer and more systematic than you might seem at first.`,
 
-  "Aer Nigrus":      `The Aer Nigrus psyche leads with Ti — a precise, internally consistent framework for making sense of the world, constructed from the inside out. Se supports this as the Persona: the analysis stays close to reality, grounded in concrete detail and direct experience rather than abstraction. Ni lives in the Anima, supplying occasional intimations of pattern or convergence that can unsettle a type committed to rigour. Fe shadows from the unconscious: warmth and social harmony are the least natural territory, and this type's relationship with collective emotional life tends to be complicated — either avoided or idealised. This is a type of disciplined intelligence, sensory precision, and an interior world of considerable coherence.`,
+  "Aer Nigrus":      `You lead with Ti: building a precise, internally consistent framework for understanding the world, from the inside out. Se supports this in your Persona — keeping your analysis grounded in concrete detail and direct experience, not just abstraction. Ni becomes available in your Anima: occasional intimations of pattern or convergence that can unsettle your commitment to rigour. Fe sits furthest away, in your Umbra — warmth and group harmony are the least natural territory for you, and your relationship to collective emotional life tends to be complicated, either avoided or idealised. Overall: disciplined intelligence and sensory precision, with a genuinely coherent inner world.`,
 
-  "Aer Albus":       `The Aer Albus psyche leads with Fe — the emotional field of the group is primary, and this type moves through social reality by attuning, harmonising, and drawing others into connection. Ni sits in the Persona: an intuitive depth informs the social intelligence, giving this type a long view of people and situations that pure warmth alone cannot provide. Se lives in the Anima — embodied, sensory experience is vivid when accessed but not primary, surfacing in moments of aesthetic engagement or physical pleasure. Ti shadows from below, a private analytical capacity that may emerge as self-criticism or sudden rigorous precision. This is a type of social intelligence and relational depth, guided by vision and occasionally surprised by its own sharpness.`,
+  "Aer Albus":       `You lead with Fe: the emotional field of the group comes first, and you move through social situations by attuning, harmonising, and drawing people together. Ni supports this closely in your Persona — an intuitive depth that gives you a longer view of people and situations than warmth alone could provide. Se becomes available in your Anima: vivid, embodied experience — not your default, but alive in moments of aesthetic pleasure or physical engagement. Ti sits in your Umbra — a private analytical capacity that can surface as self-criticism, or a sudden burst of sharp precision. Overall: real social intelligence and relational depth, guided by vision, occasionally surprised by your own sharpness.`,
 
-  "Aer Caeruleus":   `The Aer Caeruleus psyche leads with Ni — deep, convergent, attentive to what lies beneath the surface of events. Fe is the Persona: the inner vision expresses itself through relational warmth and social intelligence, making this type appear more outwardly attuned than their interior life might suggest. Ti occupies the Anima — a capacity for precise internal analysis that emerges in moments of complexity or doubt, quietly checking the coherence of what feeling and intuition have concluded. Se shadows from below: the physical, external world is the least cultivated territory, and this type may have a complex relationship with embodiment and immediate sensation. This is a type of profound attunement, social gift, and hidden analytical rigour.`,
+  "Aer Caeruleus":   `You lead with Ni: deep and convergent, tuned to what lies beneath the surface of events. Fe supports this closely in your Persona — your inner vision expresses itself through relational warmth and social intelligence, so you often come across as more outwardly attuned than your interior life might suggest. Ti becomes available in your Anima: a capacity for precise internal analysis that shows up in moments of complexity or doubt, quietly checking whether your feelings and intuitions actually hold together. Se sits furthest away, in your Umbra — the physical, external world is your least cultivated territory, and your relationship with embodiment can be complicated. Overall: profound attunement and social gift, with hidden analytical rigour.`,
 
-  "Terra Rubea":     `The Terra Rubea psyche leads with Ne — the world is experienced as a field of possibility, connection, and branching meaning. Fi provides the Persona: the exploration is not neutral but value-laden, and this type follows possibility in the direction of what personally matters. Te occupies the Anima — external organisation and structured outcome are available but not primary, often arriving in bursts when a project has caught sufficient meaning. Si shadows from below, a deep store of personal precedent and procedural memory that occasionally surfaces as nostalgia, anxiety about the unfamiliar, or an unexpected conservatism. This is a type of visionary warmth — generative, principled, and privately more grounded than it appears.`,
+  "Terra Rubea":     `You lead with Ne: the world shows up as a field of possibility, connection, and branching meaning. Fi supports this closely in your Persona — your exploration isn't neutral, it follows what personally matters to you. Te becomes available in your Anima: external structure and organised output aren't your default, but they arrive in bursts once a project has caught enough meaning. Si sits in your Umbra — a deep store of personal precedent that occasionally surfaces as nostalgia, discomfort with the unfamiliar, or an unexpected streak of conservatism. Overall: visionary warmth — generative and principled, more grounded privately than you appear.`,
 
-  "Terra Nigra":     `The Terra Nigra psyche leads with Fi — the inner moral world is primary and sovereign, and everything else, including the proliferating ideas Ne generates, is filtered through it. Ne sits close as the Persona: values find expression through intellectual exploration, and this type is capable of great breadth of thought so long as it serves something they genuinely care about. Si lives in the Anima — the weight of personal history, habit, and the familiar is more present than might be expected, emerging as quiet loyalty to particular places, people, or practices. Te shadows from the unconscious, a suppressed drive for external order that can erupt as perfectionism or frustration when the world fails to arrange itself properly. This is a type of deep conviction and surprising range — structured within, exploratory without.`,
+  "Terra Nigra":     `You lead with Fi: your inner moral world comes first, and everything else — including all the ideas Ne generates — gets filtered through it. Ne supports this closely in your Persona — your values find expression through genuine intellectual range, as long as it serves something you actually care about. Si becomes available in your Anima: the weight of personal history and habit shows up more than you'd expect, as quiet loyalty to particular places, people, or routines. Te sits in your Umbra — a suppressed drive for external order that can erupt as perfectionism or frustration when the world won't arrange itself properly. Overall: deep conviction and surprising range — structured within, exploratory without.`,
 
-  "Terra Alba":      `The Terra Alba psyche leads with Te — the world is approached through structure, output, and measurable effectiveness. Si provides the Persona: the organisation is not theoretical but grounded in established method and accumulated precedent, making this type one of the most practically reliable. Ne lives in the Anima — creative possibility and divergent thinking emerge most freely in relaxed or playful states, and this type is often more imaginative than their systematic exterior suggests. Fi shadows from below, a private emotional world and a personal moral standard that rarely surfaces directly but strongly influences what the type is willing to do. This is a type of methodical competence and hidden depth — reliable, structured, and quietly principled.`,
+  "Terra Alba":      `You lead with Te: you approach the world through structure, output, and measurable results. Si supports this closely in your Persona — your organisation isn't theoretical, it's grounded in established method and accumulated precedent, which makes you one of the most practically reliable people around. Ne becomes available in your Anima: creative possibility and divergent thinking show up most freely when you're relaxed or playful — you're probably more imaginative than your systematic exterior suggests. Fi sits in your Umbra — a private emotional world and personal moral standard that rarely surfaces directly, but strongly shapes what you're actually willing to do. Overall: methodical competence with hidden depth — reliable, structured, quietly principled.`,
 
-  "Terra Caerulea":  `The Terra Caerulea psyche leads with Si — a vast interior archive of personal experience, pattern, and procedure that gives this type an extraordinary sense of what is reliable, familiar, and sound. Te provides the Persona: the accumulated store of experience is organised and applied with structural rigour, making this type precise as well as experienced. Fi occupies the Anima — personal values and emotional depth are available but not primary, emerging most clearly in close relationships and moments of personal significance. Ne shadows from the unconscious: the unfamiliar, the speculative, and the radically new are the least comfortable territory, and this type may find unexpected inspiration in creative or exploratory states that bypass their habitual caution. This is a type of grounded authority — experienced, structured, and privately feeling.`,
+  "Terra Caerulea":  `You lead with Si: a vast interior archive of personal experience and procedure that gives you an unusually strong sense of what's reliable and sound. Te supports this closely in your Persona — your accumulated experience gets organised and applied with real structural rigour. Fi becomes available in your Anima: personal values and emotional depth aren't your default, but they show up clearly in close relationships and moments that matter to you. Ne sits in your Umbra — the unfamiliar and the speculative are your least comfortable territory, though you may find unexpected inspiration in creative states that bypass your usual caution. Overall: grounded authority — experienced, structured, and privately feeling.`,
 
-  "Aqua Rubea":      `The Aqua Rubea psyche leads with Ne — a reaching, associative intelligence that finds meaning in the space between ideas and people. Ti provides the Persona: the outward generativity is shaped by a precise interior logic, and this type can be surprisingly systematic beneath its exploratory surface. Fe occupies the Anima — warmth and emotional attunement are available and deeply felt, but typically arrive in response to meaning rather than as a primary mode of engagement. Si shadows from below, a deep store of personal precedent that can surface as unexpected attachment to the familiar or a recurring sense that something established and solid is missing. This is a type of analytical imagination — proliferating, precise, and more emotionally alive than it may initially appear.`,
+  "Aqua Rubea":      `You lead with Ne: a reaching, associative mind that finds meaning in the space between ideas and people. Ti supports this closely in your Persona — your outward generativity is shaped by a precise inner logic, so you're more systematic than your exploratory surface suggests. Fe becomes available in your Anima: warmth and emotional attunement are real and deeply felt, but they usually arrive in response to meaning rather than as your default mode. Si sits in your Umbra — a deep store of personal precedent that can surface as unexpected attachment to the familiar, or a recurring sense that something solid is missing. Overall: analytical imagination — proliferating and precise, more emotionally alive than it first appears.`,
 
-  "Aqua Nigra":      `The Aqua Nigra psyche leads with Ti — a drive toward internal coherence, precise analysis, and the construction of frameworks that make genuine sense. Ne sits as the Persona: the logical mind reaches outward into possibility, and this type explores ideas with the restless curiosity of a system that is never quite finished. Si lives in the Anima, providing a quiet counterweight of personal experience and the known — this type often returns, unexpectedly, to trusted precedents and familiar patterns. Fe shadows from the unconscious: collective warmth and social harmony are the territory this type is least at home in, and the emotional field of the group may be experienced as both compelling and elusive. This is a type of relentless interior intelligence, exploratory and precise, privately more affected by others than it shows.`,
+  "Aqua Nigra":      `You lead with Ti: a drive toward internal coherence and frameworks that genuinely make sense. Ne supports this closely in your Persona — your logical mind reaches outward into possibility, exploring ideas with restless curiosity. Si becomes available in your Anima: a quiet counterweight of personal experience — you often return, unexpectedly, to trusted precedents and familiar patterns. Fe sits in your Umbra — collective warmth and social harmony are your least comfortable territory, and the emotional field of a group can feel both compelling and elusive. Overall: relentless interior intelligence — exploratory and precise, more affected by others than you show.`,
 
-  "Aqua Alba":       `The Aqua Alba psyche leads with Fe — the emotional field of others is primary, and this type moves through the world by creating the conditions for warmth, belonging, and shared meaning. Si provides the Persona: the relational intelligence is grounded in the familiar — trusted relationships, established rituals, accumulated care — rather than in novelty or abstraction. Ne lives in the Anima, a generative, associative energy that surfaces most freely in play, creativity, and conversation, and gives this type a warmth that surprises with its imaginative range. Ti shadows from below — internal analysis and logical precision are the least natural mode, and this type may find its most rigorous thinking arrives only after emotional engagement has opened the door. This is a type of grounded warmth and hidden creativity — loyal, attentive, and more alive to possibility than its reliability suggests.`,
+  "Aqua Alba":       `You lead with Fe: the emotional world of others comes first, and you move through life creating conditions for warmth and belonging. Si supports this closely in your Persona — your relational intelligence is grounded in the familiar: trusted relationships, established rituals, accumulated care, rather than novelty. Ne becomes available in your Anima: a generative, associative energy that shows up most freely in play and conversation, giving you a warmth that surprises with its imaginative range. Ti sits in your Umbra — internal analysis and logical precision aren't your natural mode, and your most rigorous thinking may only arrive after emotional engagement opens the door. Overall: grounded warmth with hidden creativity — loyal, attentive, more alive to possibility than your reliability suggests.`,
 
-  "Aqua Caerulea":   `The Aqua Caerulea psyche leads with Si — a deep, carefully maintained interior world built from personal experience, felt pattern, and lived history. Fe provides the Persona: the rich inward life expresses itself through relational sensitivity and warmth, making this type one of the most quietly attuned to the needs of those around them. Ti occupies the Anima — analytical precision and internal logical structure are available, emerging in moments of complexity or when feeling alone proves insufficient to navigate a situation. Ne shadows from the unconscious: the divergent, the speculative, and the untried are the least familiar territory, and this type may be unexpectedly energised — or quietly disoriented — by contact with open-ended possibility. This is a type of deep loyalty, felt intelligence, and a private interior life of surprising richness.`,
+  "Aqua Caerulea":   `You lead with Si: a deep, carefully maintained inner world built from personal experience and lived history. Fe supports this closely in your Persona — your rich inner life expresses itself through relational sensitivity, making you unusually attuned to the people around you. Ti becomes available in your Anima: analytical precision that shows up in moments of complexity, when feeling alone isn't enough to navigate a situation. Ne sits in your Umbra — the speculative and untried are your least familiar territory, and you may be unexpectedly energised (or quietly thrown) by open-ended possibility. Overall: deep loyalty and felt intelligence, with a private inner life of real richness.`,
 };
 
 const TEMPERAMENT_DESC = {
-  Rubeus:    { color:"#A33D33", name:"Red",   latin:"Temperamentum Rubeum",     desc:"The Ego is led by an Irrational-Extroverted function. This temperament is characterised by active engagement with the external world, responsiveness to immediate reality, and a natural heroism of doing and being." },
-  Nigrus:    { color:"#5F616D", name:"Black", latin:"Temperamentum Nigrum",     desc:"The Ego is led by a Rational-Introverted function. This temperament is characterised by deep internal evaluation, principled self-reference, and a heroism rooted in integrity and inner coherence." },
-  Albus:     { color:"#E3DBC9", name:"White", latin:"Temperamentum Album",      desc:"The Ego is led by a Rational-Extroverted function. This temperament is characterised by outward organisation and evaluation, structuring the world according to shared standards and social coordination." },
-  Caeruleus: { color:"#3E6E98", name:"Blue",  latin:"Temperamentum Caeruleum", desc:"The Ego is led by an Irrational-Introverted function. This temperament is characterised by deep receptivity to inner impressions, accumulated pattern-recognition, and a heroism of vision and depth." },
+  Rubeus:    { color:"#A33D33", name:"Red",   latin:"Temperamentum Rubeum",     desc:"Your leading function is a perceiving function turned outward (\"Irrational-Extroverted\" — irrational just means perception-based here, not illogical). You meet the world through direct action and immediate response. Red types are naturally engaged, quick to act, and heroic in the sense of doing rather than deliberating." },
+  Nigrus:    { color:"#5F616D", name:"Black", latin:"Temperamentum Nigrum",     desc:"Your leading function is a judging function turned inward (\"Rational-Introverted\" — rational just means judgment-based here, not necessarily logical). You evaluate the world through deep internal reflection first. Black types are principled and self-referential, with a heroism rooted in personal integrity and inner coherence." },
+  Albus:     { color:"#E3DBC9", name:"White", latin:"Temperamentum Album",      desc:"Your leading function is a judging function turned outward (\"Rational-Extroverted\" — rational just means judgment-based here, not necessarily logical). You evaluate the world by organising it — applying shared standards, coordinating with others, getting things structured. White types lead by structuring the world around them." },
+  Caeruleus: { color:"#3E6E98", name:"Blue",  latin:"Temperamentum Caeruleum", desc:"Your leading function is a perceiving function turned inward (\"Irrational-Introverted\" — irrational just means perception-based here, not illogical). You take in the world through deep, private impressions that accumulate into insight over time. Blue types are visionary and deep, heroic in the sense of sight rather than action." },
 };
 
 // ─────────────────────────────────────────────────────────────
@@ -450,30 +458,30 @@ const PROCESS_DATA = {
   Eudemonic:  {
     alchemical:"rubedo · iosis",
     color:"#C8A84B",
-    summary:"You are someone who has found, at least in the present moment, a working relationship with yourself. The dominant mode through which you meet the world is sufficiently developed that it feels like ground rather than struggle — and the function that supports it has begun to do its work. This does not mean you are finished, or without conflict; it means your centre holds. You can act from somewhere. The deeper layers of the psyche — the figures you have not yet fully faced — are present but not yet demanding. You are, in the language of the alchemists, in the reddening: something has come to maturity, and the work now is to live from it fully rather than to secure it anxiously.",
-    culmination:"Stage 5: Self-actualisation — all four layers integrated",
-    shadow:"The temptation of this stage is to assume the work is done. The integrated psyche is not an endpoint but a beginning — the Umbra, though quiet, is never absent.",
+    summary:"Right now, you have a working relationship with yourself. Your leading function feels like solid ground rather than a struggle, and your second function is starting to genuinely support it. That doesn't mean you're finished, or free of inner conflict — it means you have somewhere real to act from. The deeper, less conscious parts of you are still there, just not urgent right now. Alchemists called this stage the reddening — something has matured. The work now is to live from it, not to anxiously guard it.",
+    culmination:"All four layers of the psyche working together",
+    shadow:"The risk here is assuming the work is finished. An integrated psyche isn't an endpoint — it's a beginning. The parts of you still in shadow are quiet right now, but they're never fully gone.",
   },
   Elliptic:   {
     alchemical:"citrinitas · xanthosis",
     color:"#D4C9B0",
-    summary:"You are someone who knows what you are, or what you are becoming — but the wider life that knowledge implies has not yet opened. The core of who you are may be clear to you; the rest remains undifferentiated, held in reserve. This is not a failure of development but a particular stance toward it: cautious, careful, unwilling to claim more than has been truly earned. You may be at a threshold — a period between one way of being and another, where the old has been outgrown but the new has not yet taken shape. The yellowing is a transitional light: something is being clarified, but the full colour has not arrived.",
-    culmination:"Stage 5: Persona-actualisation with Anima & Umbra developing in parallel",
-    shadow:"The risk of this stage is indefinite deferral — remaining at the threshold so long that caution becomes the whole of life. The next layer is not a threat; it is the continuation of what has already begun.",
+    summary:"You know who you are, or who you're becoming — but the wider life that implies hasn't fully opened up yet. Your core identity may already be clear; everything else is still in reserve. This isn't a failure — it's a deliberate, careful stance: not claiming more about yourself than you've actually earned. You may be at a threshold, between one way of being and the next, where the old way doesn't fit anymore but the new one hasn't fully formed. Alchemists called this the yellowing — a transitional light. Something is becoming clear, but the full picture hasn't arrived yet.",
+    culmination:"Core identity clear; the rest still developing",
+    shadow:"The risk here is staying at the threshold too long — letting caution become your whole life. Moving into the next layer isn't a threat. It's just the next step of what's already started.",
   },
   Hyperbolic: {
     alchemical:"albedo · leucosis",
     color:"#8AA8B8",
-    summary:"You are someone in the grip of a strong current — pulled consistently in one direction, toward one mode of being, at the expense of its complement. This is a recognisable human condition: a life organised around what comes naturally, while what does not come naturally is kept at a distance. The whitening is an image of this: brightness without shadow, clarity without depth, or depth without clarity. Something in you is not yet in dialogue with its other half. This is creative tension — not dysfunction — but it tends to produce a particular kind of restlessness, a sense that something is missing whose name you may not have found.",
-    culmination:"Stage 5: Anima-substitution — the semiconscious layer leading before the conscious one is settled",
-    shadow:"The risk is that one side of the psyche speaks so loudly that the other goes unheard until it surfaces in a form that is harder to integrate — through projection, through a relationship that seems to carry what you cannot, through a crisis that turns out to be an invitation.",
+    summary:"You're caught in a strong current — consistently pulled toward one way of being, at the cost of its opposite. This is a common human pattern: building a life around what comes naturally, while keeping what doesn't come naturally at arm's length. Alchemists called this the whitening — brightness without shadow, clarity without depth, or the reverse. Part of you isn't yet in conversation with its other half. This isn't dysfunction — it's real tension — but it often shows up as a restlessness, a sense that something's missing you can't quite name.",
+    culmination:"One side of the psyche leading strongly, ahead of the other",
+    shadow:"The risk is that one side of you gets so loud, the other side goes unheard — until it resurfaces in a harder way to handle: through projection onto someone else, through a relationship that seems to carry what you can't, or through a crisis that turns out to be an invitation.",
   },
   Psychotic:  {
     alchemical:"nigredo · melanosis",
     color:"#6A3A7A",
-    summary:"You are someone in a genuine state of flux — or at odds with the structure the psyche would naturally assume. This may mean you are in transition: between identities, between chapters, between one understanding of yourself and another that has not yet arrived. It may mean that the expected hierarchy of your inner life has been disrupted — by circumstance, by suffering, by a refusal to settle into what was assumed. The blackening is the alchemists' image for dissolution: what was solid has become uncertain. This is the most demanding of the processes, but it is not without its own gravity. Those who have passed through it tend to know something the others do not.",
-    culmination:"Stage 5: Umbra-substitution — the unconscious layer demanding recognition",
-    shadow:"The risk is not disintegration but mistaking dissolution for arrival — treating the state of flux as though it were freedom, when it may be the beginning of a harder and more necessary work.",
+    summary:"You're in a genuine state of flux, or somewhat at odds with how your inner life is normally structured. This might mean you're between identities or life chapters — one understanding of yourself has ended, and the next hasn't arrived yet. Or it might mean something disrupted the usual order of your inner world — circumstance, hardship, or simply refusing to settle into what was expected of you. Alchemists called this the blackening — dissolution, where what felt solid becomes uncertain. It's the most demanding of the four patterns, but it isn't without value. People who've been through it tend to come out knowing something the others don't yet.",
+    culmination:"The usual inner structure temporarily disrupted",
+    shadow:"The risk isn't falling apart — it's mistaking the dissolving for arrival. Treating this unsettled state as if it were freedom, when it might actually be the start of harder, more necessary work.",
   },
 };
 
@@ -567,13 +575,24 @@ function determineProcess(answers) {
   // Eudemonic: strong preference for ego + persona, weak/no for anima + umbra
   if (isStrongStrict(egoFn) && isStrongStrict(personaFn) && isWeakStrict(animaFn) && isWeakStrict(umbraFn)) return "Eudemonic";
 
-  // Elliptic: strong for ego only, weak everywhere else
+  // Elliptic: strong for ego only, weak everywhere else — including umbra. Without the
+  // umbra check, a type whose ego AND umbra are both Strong (fully possible in a full
+  // round-robin, since they only clash directly in one of their three matchups) could
+  // still qualify as Elliptic even though the shadow function is clearly NOT "still in
+  // reserve" — the whole point of the Elliptic label.
   // OR weak/no preference for all functions
   const allWeak = isWeakStrict(egoFn) && isWeakStrict(personaFn) && isWeakStrict(animaFn) && isWeakStrict(umbraFn);
-  if ((isStrongStrict(egoFn) && isWeakStrict(personaFn) && isWeakStrict(animaFn)) || allWeak) return "Elliptic";
+  if ((isStrongStrict(egoFn) && isWeakStrict(personaFn) && isWeakStrict(animaFn) && isWeakStrict(umbraFn)) || allWeak) return "Elliptic";
 
-  // Default to Eudemonic if pattern partially matches but doesn't fit others
-  return "Eudemonic";
+  // Fallback: none of the explicit patterns fit. Rather than defaulting straight to
+  // Eudemonic (which implies the dominant function is leading a working, integrated
+  // psyche), first check whether the ego function is actually the strongest thing in
+  // the stack. If persona, anima, or umbra individually out-wins ego, some other layer
+  // is leading instead of the dominant — that's a partial/uneven pattern, i.e. Elliptic,
+  // not an integrated one. Only default to Eudemonic when ego is at least tied for the
+  // top spot within its own stack.
+  const egoIsStrongestInStack = groupWins(egoFn) >= Math.max(groupWins(personaFn), groupWins(animaFn), groupWins(umbraFn));
+  return egoIsStrongestInStack ? "Eudemonic" : "Elliptic";
 }
 
 // ─────────────────────────────────────────────────────────────
@@ -994,7 +1013,19 @@ function shuffleArray(arr) {
   return a;
 }
 
-function NJTAApp({ savedReport, setSavedReport, tier }) {
+function NJTAApp({ savedReport, setSavedReport, tier, authToken }) {
+  // Fire-and-forget persistence to the backend, matching the same pattern DreamApp and
+  // DaseinApp use for their own saves — local state updates immediately so the UI never
+  // blocks on network, but errors are logged so a failed save is at least visible.
+  const persistReport = (report) => {
+    if (!authToken) return;
+    fetch(`${BACKEND_URL}/njta-report`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${authToken}` },
+      body: JSON.stringify(report),
+    }).catch(err => console.error("Failed to save NJTA report:", err));
+  };
+
   const skipActive = tier >= 2 && !!savedReport;
   const [phase, setPhase] = useState(skipActive ? "result" : "intro");
   const [sectionIdx, setSectionIdx] = useState(0); // 0=S1, 1=S2, 2=S3
@@ -1015,7 +1046,11 @@ function NJTAApp({ savedReport, setSavedReport, tier }) {
   const q = currentSectionQs[qIdx];
 
   // Overall progress
-  const totalQs = 10 + 10 + 24;
+  // 36, not the original 24 — Section III grew when process scoring was extended from
+  // 8 to 12 comparison groups (round-robin). This drives the progress bar and the
+  // "X / total" counter, so a stale count here doesn't just look wrong internally —
+  // every test-taker sees it overshoot 100% near the end of Section III.
+  const totalQs = 10 + 10 + 36;
   const answeredCount = Object.keys(answers).length;
   const progress = answeredCount / totalQs;
 
@@ -1050,6 +1085,7 @@ function NJTAApp({ savedReport, setSavedReport, tier }) {
           setProcResult(proc);
           setPhase("result");
           if (setSavedReport) setSavedReport({ typeName: type, process: proc });
+          persistReport({ typeName: type, process: proc });
         }
       } else if (dir === -1) {
         if (qIdx > 0) {
@@ -1259,6 +1295,9 @@ function NJTAApp({ savedReport, setSavedReport, tier }) {
 // DREAM MEANING
 // ═══════════════════════════════════════════════════════════
 
+// NOTE: `persona` is kept here for reference/sync with the backend copy in
+// ai-routes.js (which is what actually gets used in the interpret-dream call) — the
+// frontend no longer sends persona text to the API, only an analystId.
 const ANALYSTS = [
   { id:"freud",   name:"Sigmund Freud",    years:"1856–1939", school:"Psychoanalysis",       color:"#8B6A4A", accent:"#D4AF6A", locked:false,
     intro:"The father of psychoanalysis. Freud reads dreams as disguised wish-fulfillment — the mind's way of smuggling repressed desires past an internal censor. Expect a formal, incisive style that treats every image as a clue: nothing in the dream is incidental, and the manifest story is rarely the real one.",
@@ -1416,7 +1455,7 @@ function AnalystBadge({ analyst, selected, onClick, locked }) {
 function JournalEntry({ entry, onSelect, selected }) {
   const date=new Date(entry.date);
   const formatted=date.toLocaleDateString("en-US",{month:"short",day:"numeric",year:"numeric"});
-  const preview=entry.text.length>80?entry.text.slice(0,80)+"…":entry.text;
+  const entryText=entry.text||""; const preview=entryText.length>80?entryText.slice(0,80)+"…":entryText;
   return (
     <button onClick={()=>onSelect(entry)} style={{width:"100%",textAlign:"left",background:selected?"rgba(196,181,232,0.12)":"rgba(255,255,255,0.03)",border:selected?"1px solid rgba(196,181,232,0.35)":"1px solid rgba(255,255,255,0.07)",borderRadius:10,padding:"12px 14px",cursor:"pointer",transition:"all 0.2s",marginBottom:8}}>
       <div style={{display:"flex",justifyContent:"space-between",alignItems:"flex-start",marginBottom:4}}>
@@ -1428,7 +1467,7 @@ function JournalEntry({ entry, onSelect, selected }) {
   );
 }
 
-function DreamApp({ savedEntries, setSavedEntries, tier, chosenAnalystId, setChosenAnalystId }) {
+function DreamApp({ savedEntries = [], setSavedEntries, tier, chosenAnalystId, setChosenAnalystId, authToken }) {
   const [entryStep, setEntryStep] = useState("choose"); // "choose" (pick an analyst first) | "main"
   const [currentEntry, setCurrentEntry] = useState(null);
   const [title, setTitle] = useState("");
@@ -1461,6 +1500,17 @@ function DreamApp({ savedEntries, setSavedEntries, tier, chosenAnalystId, setCho
     return `\n\nFor context, you have previously interpreted this dreamer's entries${note}:\n\n${lines.join("\n\n")}\n\nDraw on these where relevant — note recurring symbols, patterns, or developments — but keep the focus on the new dream.`;
   }
 
+  // Fire-and-forget persistence to the backend — local state updates immediately so the
+  // UI never blocks on network, but errors are logged rather than silently swallowed so
+  // they're at least visible in the console if the save didn't actually stick.
+  const persistEntry = (entry) => {
+    fetch(`${BACKEND_URL}/dream-entries/${entry.id}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${authToken}` },
+      body: JSON.stringify({ title: entry.title, text: entry.text, date: entry.date, interpretations: entry.interpretations }),
+    }).catch(err => console.error("Failed to save dream entry:", err));
+  };
+
   const handleSave = () => {
     if (!dreamText.trim()) return;
     const entry = {
@@ -1476,6 +1526,7 @@ function DreamApp({ savedEntries, setSavedEntries, tier, chosenAnalystId, setCho
       : [entry, ...savedEntries];
     setSavedEntries(updated);
     setCurrentEntry(entry);
+    persistEntry(entry);
     setSaveFlash(true);
     setTimeout(() => setSaveFlash(false), 1500);
   };
@@ -1483,6 +1534,10 @@ function DreamApp({ savedEntries, setSavedEntries, tier, chosenAnalystId, setCho
   const handleErase = (entryId) => {
     const updated = savedEntries.filter(e => e.id !== entryId);
     setSavedEntries(updated);
+    fetch(`${BACKEND_URL}/dream-entries/${entryId}`, {
+      method: "DELETE",
+      headers: { Authorization: `Bearer ${authToken}` },
+    }).catch(err => console.error("Failed to delete dream entry:", err));
     if (currentEntry?.id === entryId) {
       setCurrentEntry(null); setTitle(""); setDreamText("");
       setInterpretation(""); setShowInterpretation(false);
@@ -1514,27 +1569,34 @@ function DreamApp({ savedEntries, setSavedEntries, tier, chosenAnalystId, setCho
     }
     setIsInterpreting(true); setShowInterpretation(true); setInterpretation(""); setInterpretError(null);
     try {
-      const memory = buildMemoryContext(selectedAnalyst.id, currentEntry?.id);
-      const systemPrompt = selectedAnalyst.persona + memory;
-      const userContent = `Please interpret this dream journal entry:\n\nTitle: "${title || "Untitled Dream"}"\n\n${dreamText}`;
-      const response = await fetch("https://api.anthropic.com/v1/messages", {
+      const memoryContext = buildMemoryContext(selectedAnalyst.id, currentEntry?.id);
+      // Routed through our own backend rather than api.anthropic.com directly — the
+      // API key lives server-side only (see /api/interpret-dream), and the persona
+      // text is looked up there from analystId rather than trusted from the client.
+      const response = await fetch(`${BACKEND_URL}/interpret-dream`, {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          "anthropic-version": "2023-06-01",
-          "anthropic-dangerous-direct-browser-access": "true",
+          Authorization: `Bearer ${authToken}`,
         },
-        body: JSON.stringify({ model: "claude-sonnet-4-6", max_tokens: 1000, system: systemPrompt, messages: [{ role: "user", content: userContent }] }),
+        body: JSON.stringify({
+          analystId: selectedAnalyst.id,
+          chosenAnalystId,
+          title,
+          dreamText,
+          memoryContext,
+        }),
       });
       const data = await response.json();
-      if (!response.ok) throw new Error(data.error?.message || `API error ${response.status}`);
-      const text = data.content?.map(b => b.text || "").join("") || "";
+      if (!response.ok) throw new Error(data.error || `API error ${response.status}`);
+      const text = data.interpretation || "";
       if (!text.trim()) throw new Error("The analyst returned no interpretation.");
       setInterpretation(text);
       if (currentEntry) {
         const updatedEntry = { ...currentEntry, interpretations: { ...currentEntry.interpretations, [selectedAnalyst.id]: text } };
         setSavedEntries(savedEntries.map(e => e.id === currentEntry.id ? updatedEntry : e));
         setCurrentEntry(updatedEntry);
+        persistEntry(updatedEntry);
       }
     } catch (err) {
       console.error("Dream interpretation error:", err);
@@ -1760,6 +1822,9 @@ const DASEIN_PALETTE = {
   flare:"#C4A882", amber:"#8B6914",
 };
 
+// NOTE: this prompt is now owned server-side (see /api/dasein-reflect in the backend)
+// so a request can't smuggle in different instructions. This copy is kept only as a
+// sync reference — if you edit the voice/style here, mirror the edit in the backend.
 const DASEIN_SYSTEM = `You are the voice of Dasein — a philosophical companion grounded in Heidegger's existential analytic. You speak to the user about their existence, their thrownness (the situation they find themselves already in), their projections (what they are moving toward), and their authentic vs. inauthentic choices.
 
 Your style: spare, probing, honest. No therapy-speak. No affirmations. You ask questions that unsettle in a generative way. You use plain language but speak from depth. You reference the structures of existence — care, temporality, being-toward-death, the they-self, authenticity — but never pedantically. You help the user hear themselves.
@@ -1797,7 +1862,7 @@ function TypedText({ text, onDone }) {
   );
 }
 
-function DaseinApp({ savedSessions, setSavedSessions, tier }) {
+function DaseinApp({ savedSessions = [], setSavedSessions, tier, authToken }) {
   const [step, setStep] = useState("intro");
   const [preAboutStep, setPreAboutStep] = useState("intro");
   const [answers, setAnswers] = useState({ thrownness:"", projection:"", uncanny:"" });
@@ -1838,22 +1903,27 @@ function DaseinApp({ savedSessions, setSavedSessions, tier }) {
 
   async function callClaude() {
     setStep("voice"); setLoading(true); setResponse(""); setTypingDone(false); setError(null);
-    const memory = buildMemoryContext();
-    const systemPrompt = DASEIN_SYSTEM + memory;
-    const userMessage = `My thrownness (where I find myself): ${answers.thrownness}\n\nMy projection (what I'm moving toward): ${answers.projection}\n\nMy uncanny (what calls me back): ${answers.uncanny}`;
+    const memoryContext = buildMemoryContext();
+    // Routed through our own backend rather than api.anthropic.com directly — see
+    // /api/dasein-reflect. The system prompt is owned server-side; only the user's own
+    // three answers and their own prior-session memory context are sent.
     try {
-      const res = await fetch("https://api.anthropic.com/v1/messages", {
-        method:"POST",
-        headers:{
-          "Content-Type":"application/json",
-          "anthropic-version":"2023-06-01",
-          "anthropic-dangerous-direct-browser-access":"true",
+      const res = await fetch(`${BACKEND_URL}/dasein-reflect`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          Authorization: `Bearer ${authToken}`,
         },
-        body: JSON.stringify({ model:"claude-sonnet-4-6", max_tokens:1000, system:systemPrompt, messages:[{role:"user",content:userMessage}] }),
+        body: JSON.stringify({
+          thrownness: answers.thrownness,
+          projection: answers.projection,
+          uncanny: answers.uncanny,
+          memoryContext,
+        }),
       });
       const data = await res.json();
-      const text = data.content?.map(b => b.text||"").join("") || "";
-      setResponse(text);
+      if (!res.ok) throw new Error(data.error || `API error ${res.status}`);
+      setResponse(data.response || "");
       // auto-assign a session id for later saving
       setSessionId(Date.now().toString());
     } catch { setError("The voice could not be reached."); }
@@ -1871,12 +1941,21 @@ function DaseinApp({ savedSessions, setSavedSessions, tier }) {
     // avoid duplicate saves
     if (savedSessions.find(s => s.id === sessionId)) { setSaveFlash(true); setTimeout(()=>setSaveFlash(false),1500); return; }
     setSavedSessions([session, ...savedSessions]);
+    fetch(`${BACKEND_URL}/dasein-sessions/${session.id}`, {
+      method: "PUT",
+      headers: { "Content-Type": "application/json", Authorization: `Bearer ${authToken}` },
+      body: JSON.stringify({ date: session.date, answers: session.answers, response: session.response }),
+    }).catch(err => console.error("Failed to save DaseinCare session:", err));
     setSaveFlash(true);
     setTimeout(() => setSaveFlash(false), 1500);
   }
 
   function handleErase(id) {
     setSavedSessions(savedSessions.filter(s => s.id !== id));
+    fetch(`${BACKEND_URL}/dasein-sessions/${id}`, {
+      method: "DELETE",
+      headers: { Authorization: `Bearer ${authToken}` },
+    }).catch(err => console.error("Failed to delete DaseinCare session:", err));
     setEraseConfirm(null);
   }
 
@@ -2097,35 +2176,22 @@ function DaseinApp({ savedSessions, setSavedSessions, tier }) {
 // ═══════════════════════════════════════════════════════════
 // ACCOUNT — sign in / sign up + profile
 // ═══════════════════════════════════════════════════════════
-// Connects to the Express/SQLite backend — POST /api/signup, POST /api/signin, and
-// GET /api/me (all returning { token, user } or the rehydrated user + saved content).
-// BACKEND_URL assumes the backend is running locally on port 3001; change this once
-// it's deployed somewhere real. Everything past auth — avatar edits, tier changes,
-// chosenAnalystId, and the NJTA report / dream entries / dasein sessions — now syncs
-// to the backend too (see apiRequest below and its call sites in the root component),
-// with local state + localStorage still updated immediately so the UI never waits on
-// the network; the sync to the server happens in the background.
-const BACKEND_URL = "https://api.intraself.net/api";
+// Connects to the Express/SQLite backend (see the setup guide — POST /api/signup and
+// POST /api/signin, both returning { token, user }). This is the RELEASE build, so it
+// defaults to the production API rather than localhost; set VITE_BACKEND_URL in
+// Vercel's env vars to override if you ever need to point a release build elsewhere
+// (e.g. a staging environment).
+// STILL CLIENT-ONLY: avatar edits (avatarImage/avatarPreset) and chosenAnalystId update
+// via updateUser -> local state + localStorage only (see saveSession below) — no PATCH
+// endpoint persists them server-side yet. They survive a refresh in the same browser
+// (loadSession reads them back out of localStorage) but not a different browser or
+// device. dreamEntries/daseinSessions/njtaReport are now backend-persisted; this is the
+// remaining piece of that same gap.
+const BACKEND_URL = import.meta.env.VITE_BACKEND_URL || "https://api.intraself.net/api";
 
-// Thin fetch wrapper for authenticated calls: attaches the Bearer token, JSON-encodes
-// the body, and throws on non-2xx so callers can .catch() a single error path. Sync
-// calls from updateUser/dream-entries/dasein-sessions are fire-and-forget — local state
-// is already the source of truth for the UI, so a failed background sync is logged
-// rather than surfaced as a blocking error (the change just won't have reached the
-// server yet; it'll get overwritten on next successful sync from that same local edit).
-async function apiRequest(path, { method = "GET", body, token } = {}) {
-  const res = await fetch(`${BACKEND_URL}${path}`, {
-    method,
-    headers: {
-      "Content-Type": "application/json",
-      ...(token ? { Authorization: `Bearer ${token}` } : {}),
-    },
-    ...(body !== undefined ? { body: JSON.stringify(body) } : {}),
-  });
-  const data = await res.json().catch(() => ({}));
-  if (!res.ok) throw new Error(data.error || `Request to ${path} failed (${res.status}).`);
-  return data;
-}
+// Shared with the reset-password flow this app previously had — kept as the signup
+// minimum even without self-serve reset in place.
+const MIN_PASSWORD_LENGTH = 8;
 
 function AuthPage({ onAuth, onCancel }) {
   const [mode, setMode] = useState("signin"); // "signin" | "signup"
@@ -2148,6 +2214,10 @@ function AuthPage({ onAuth, onCancel }) {
     setError("");
     if (mode === "signup" && (!accountName.trim() || !handle.trim() || !email.trim() || !password)) {
       setError("Account name, handle, email, and password are required.");
+      return;
+    }
+    if (mode === "signup" && password.length < MIN_PASSWORD_LENGTH) {
+      setError(`Password must be at least ${MIN_PASSWORD_LENGTH} characters.`);
       return;
     }
     if (mode === "signin" && (!email.trim() || !password)) {
@@ -2209,7 +2279,7 @@ function AuthPage({ onAuth, onCancel }) {
         <label style={labelStyle}>Email</label>
         <input type="email" style={inputStyle} value={email} onChange={e=>setEmail(e.target.value)} placeholder="jane@example.com"/>
         <label style={labelStyle}>Password</label>
-        <input type="password" style={inputStyle} value={password} onChange={e=>setPassword(e.target.value)} placeholder="••••••••"/>
+        <input type="password" style={inputStyle} value={password} onChange={e=>setPassword(e.target.value)} placeholder="••••••••" onKeyDown={e=>e.key==="Enter" && handleSubmit()}/>
 
         {error && <div style={{ color:"#D89090", fontSize:12, fontFamily:"sans-serif", marginBottom:14 }}>{error}</div>}
 
@@ -2231,7 +2301,78 @@ const AVATAR_PRESETS = [
   "linear-gradient(135deg,#8A8A9A,#2A2A32)",
 ];
 
-function AccountProfile({ user, tier, onLogout, onBack, onUpdateUser, onUpgradeClick, onCancelPremium, njtaReport, dreamEntries, daseinSessions }) {
+function PromoCodeEntry({ userTier, authToken, onRedeemed, onNavigateAway }) {
+  const [showInput, setShowInput] = useState(false);
+  const [code, setCode] = useState("");
+  const [status, setStatus] = useState(null); // null | "loading" | "error" | "success"
+  const [errorMsg, setErrorMsg] = useState("");
+  const [showTooltip, setShowTooltip] = useState(false);
+
+  if (userTier === 1) {
+    return (
+      <div style={{ position:"relative", display:"inline-block" }}>
+        <button onClick={()=>setShowTooltip(v=>!v)} style={{ background:"none", border:"none", color:"#4A4A5A", fontFamily:"sans-serif", fontSize:11, cursor:"pointer", padding:0, textDecoration:"underline", textUnderlineOffset:"3px" }}>Have a code?</button>
+        {showTooltip && (
+          <div style={{ position:"absolute", top:"100%", left:0, marginTop:6, background:"#1A1A24", border:"1px solid #2A2A38", color:"#B8B0A0", fontFamily:"sans-serif", fontSize:11, padding:"7px 12px", borderRadius:6, whiteSpace:"nowrap", zIndex:10 }}>
+            Create a free account to redeem a code
+          </div>
+        )}
+      </div>
+    );
+  }
+
+  const handleRedeem = async () => {
+    if (!code.trim()) return;
+    setStatus("loading");
+    setErrorMsg("");
+    try {
+      const res = await fetch(`${BACKEND_URL}/redeem-code`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${authToken}` },
+        body: JSON.stringify({ code: code.trim() })
+      });
+      const data = await res.json();
+      if (!res.ok) {
+        setStatus("error");
+        setErrorMsg(data.error || "Something went wrong");
+        return;
+      }
+      setStatus("success");
+      onRedeemed(data.user);
+      setTimeout(()=>onNavigateAway(), 900);
+    } catch (err) {
+      setStatus("error");
+      setErrorMsg("Network error — please try again");
+    }
+  };
+
+  if (!showInput) {
+    return (
+      <button onClick={()=>setShowInput(true)} style={{ background:"none", border:"none", color:"#C8A84B", fontFamily:"sans-serif", fontSize:11, cursor:"pointer", padding:0, textDecoration:"underline", textUnderlineOffset:"3px" }}>Have a code?</button>
+    );
+  }
+
+  return (
+    <div style={{ marginTop:10, background:"#0D0D14", border:"1px solid #2A2A38", borderRadius:10, padding:"14px 16px", textAlign:"left" }}>
+      <div style={{ display:"flex", gap:8 }}>
+        <input
+          type="text"
+          value={code}
+          onChange={e=>setCode(e.target.value)}
+          placeholder="Enter code"
+          style={{ flex:1, fontSize:14, fontFamily:"sans-serif", background:"#08080F", border:"1px solid #2A2A38", borderRadius:6, color:"#D8D0C0", padding:"8px 10px" }}
+        />
+        <button onClick={handleRedeem} disabled={status==="loading"} style={{ background:"transparent", border:"1px solid #C8A84B66", color:"#C8A84B", padding:"8px 16px", fontFamily:"sans-serif", fontSize:11, letterSpacing:"0.05em", cursor:"pointer", borderRadius:6 }}>
+          {status==="loading" ? "Checking…" : "Redeem"}
+        </button>
+      </div>
+      {status==="error" && <div style={{ color:"#D89088", fontFamily:"sans-serif", fontSize:11, marginTop:8 }}>{errorMsg}</div>}
+      {status==="success" && <div style={{ color:"#8FBF8F", fontFamily:"sans-serif", fontSize:11, marginTop:8 }}>Access granted!</div>}
+    </div>
+  );
+}
+
+function AccountProfile({ user, tier, authToken, onLogout, onBack, onUpdateUser, onUpgradeClick, onCancelPremium, onRedeemedPromo, onNavigateAway, njtaReport, dreamEntries, daseinSessions }) {
   const [cancelConfirm, setCancelConfirm] = useState(false);
   const [editingAvatar, setEditingAvatar] = useState(false);
   const fileInputRef = useRef(null);
@@ -2245,6 +2386,12 @@ function AccountProfile({ user, tier, onLogout, onBack, onUpdateUser, onUpgradeC
     const file = e.target.files?.[0];
     if (!file) return;
     if (!file.type.startsWith("image/")) return;
+    // No resizing/compression before storing — a full-resolution phone photo can
+    // base64-encode to several MB, and saveSession's try/catch swallows a
+    // QuotaExceededError silently. Worst case: the avatar (and the rest of the
+    // session write) looks like it worked until the next refresh, then reverts,
+    // with no error shown. Fine for now at small scale; worth a client-side resize
+    // (e.g. draw to a canvas, cap at ~200px, export as JPEG) before this sees real load.
     const reader = new FileReader();
     reader.onload = () => {
       onUpdateUser({ avatarImage: reader.result, avatarPreset: null });
@@ -2312,6 +2459,12 @@ function AccountProfile({ user, tier, onLogout, onBack, onUpdateUser, onUpgradeC
             </div>
           )}
 
+          {tier<3 && !cancelConfirm && (
+            <div style={{ marginTop:10 }}>
+              <PromoCodeEntry userTier={tier} authToken={authToken} onRedeemed={onRedeemedPromo} onNavigateAway={onNavigateAway} />
+            </div>
+          )}
+
           {cancelConfirm && (
             <div style={{ marginTop:16, background:"#0D0D14", border:"1px solid #2A2A38", borderRadius:10, padding:"16px 18px", textAlign:"left" }}>
               <div style={{ fontSize:12, color:"#B8B0A0", fontFamily:"sans-serif", lineHeight:1.6, marginBottom:12 }}>
@@ -2365,7 +2518,7 @@ function AccountProfile({ user, tier, onLogout, onBack, onUpdateUser, onUpgradeC
             <a href="https://intraself.net/privacy" target="_blank" rel="noopener noreferrer" style={{color:"#4A4A5A", textDecoration:"underline", textUnderlineOffset:"2px"}}>intraself.net/privacy</a>
           </div>
           <div style={{ fontSize:11, color:"#4A4A5A", fontFamily:"sans-serif", marginBottom:10 }}>
-            <a href="mailto:support@intraself.net" style={{color:"#4A4A5A", textDecoration:"none"}}>support@intraself.net</a>
+            <a href="mailto:support@psychicalarts.com" style={{color:"#4A4A5A", textDecoration:"none"}}>support@psychicalarts.com</a>
           </div>
           <div style={{ fontSize:10, color:"#2A2A38", fontFamily:"sans-serif" }}>© 2026 Psychical Arts LLC. All rights reserved.</div>
         </div>
@@ -2401,7 +2554,13 @@ function PaymentPage({ onCancel, authToken }) {
   const handleCheckout = async () => {
     setError(""); setLoading(true);
     try {
-      const data = await apiRequest("/create-checkout-session", { method: "POST", body: { plan }, token: authToken });
+      const res = await fetch(`${BACKEND_URL}/create-checkout-session`, {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Authorization: `Bearer ${authToken}` },
+        body: JSON.stringify({ plan }),
+      });
+      const data = await res.json();
+      if (!res.ok) throw new Error(data.error || "Could not start checkout.");
       window.location.href = data.url; // hand off to Stripe's hosted checkout page
     } catch (err) {
       setError(err.message || "Could not start checkout. Please try again.");
@@ -2563,55 +2722,6 @@ function LegalModal({ onAgree }) {
   );
 }
 
-// Which user fields the backend's PATCH /api/account understands — used to diff
-// old vs. new user objects so updateUser only sends what actually changed.
-// Only avatar/chosenAnalystId round-trip through updateUser -> PATCH /api/account now —
-// tier/billingPlan/subscribedAt are set directly from backend responses (checkout
-// success, /api/me, /api/cancel-subscription), never diffed and PATCHed from here.
-const ACCOUNT_SYNC_FIELDS = ["avatarPreset", "avatarImage", "chosenAnalystId"];
-
-// Dream entries and dasein sessions are both arrays swapped wholesale by their app
-// components (savedEntries.filter(...), [newEntry, ...savedEntries], etc.) rather than
-// edited field-by-field, so syncing them means diffing the old array against the new
-// one and firing the right PUT/POST/DELETE per row that actually changed — the app
-// components themselves don't need to know the backend exists at all.
-function syncDreamEntries(prev, updated, token) {
-  const prevMap = new Map(prev.map(e => [e.id, e]));
-  const updatedMap = new Map(updated.map(e => [e.id, e]));
-  for (const id of prevMap.keys()) {
-    if (!updatedMap.has(id)) {
-      apiRequest(`/dream-entries/${id}`, { method: "DELETE", token })
-        .catch(err => console.error("Dream entry delete sync failed:", err.message));
-    }
-  }
-  for (const [id, entry] of updatedMap) {
-    const before = prevMap.get(id);
-    if (!before || JSON.stringify(before) !== JSON.stringify(entry)) {
-      apiRequest(`/dream-entries/${id}`, { method: "PUT", body: entry, token })
-        .catch(err => console.error("Dream entry save sync failed:", err.message));
-    }
-  }
-}
-
-// Dasein sessions are write-once (saved after a completed reflection, never edited),
-// so only additions and deletions need syncing — no update case.
-function syncDaseinSessions(prev, updated, token) {
-  const prevIds = new Set(prev.map(s => s.id));
-  const updatedIds = new Set(updated.map(s => s.id));
-  for (const id of prevIds) {
-    if (!updatedIds.has(id)) {
-      apiRequest(`/dasein-sessions/${id}`, { method: "DELETE", token })
-        .catch(err => console.error("Dasein session delete sync failed:", err.message));
-    }
-  }
-  for (const s of updated) {
-    if (!prevIds.has(s.id)) {
-      apiRequest("/dasein-sessions", { method: "POST", body: s, token })
-        .catch(err => console.error("Dasein session save sync failed:", err.message));
-    }
-  }
-}
-
 export default function IntraSelf() {
   const [legalAccepted, setLegalAccepted] = useState(readLegalAccepted);
   const [active, setActive] = useState(null);
@@ -2620,12 +2730,40 @@ export default function IntraSelf() {
   const [njtaReport, setNjtaReport] = useState(null); // { typeName, process } once an assessment has been completed
 
   // Account state — hydrated from localStorage on first load so a refresh doesn't
-  // immediately sign someone out, then verified/refreshed against the backend below
-  // (see the rehydration effect) — this is what actually confirms the session is
-  // still valid server-side and pulls in anything saved from another device.
+  // immediately sign someone out. See the SESSION section above for the caveats
+  // (no server-side token verification yet — this trusts local storage as-is).
   const [currentUser, setCurrentUser] = useState(() => loadSession()?.user ?? null);
   const [authToken, setAuthToken] = useState(() => loadSession()?.token ?? null);
   const [accountView, setAccountView] = useState(null); // null | "auth" | "payment" | "profile"
+
+  // Dream entries, DaseinCare sessions, and the NJTA report are all backend-persisted
+  // (see /api/dream-entries, /api/dasein-sessions, /api/njta-report) — load them
+  // whenever a signed-in session becomes available (initial load with an existing
+  // session, or right after signing in). This is a load rather than a merge: local
+  // state is a cache of what's on the server, not a separate source of truth, so a
+  // fresh sign-in replaces whatever was there before.
+  useEffect(() => {
+    if (!currentUser || !authToken) { setDreamEntries([]); setDaseinSessions([]); setNjtaReport(null); return; }
+    let cancelled = false;
+    (async () => {
+      try {
+        const [dreamRes, daseinRes, njtaRes] = await Promise.all([
+          fetch(`${BACKEND_URL}/dream-entries`, { headers: { Authorization: `Bearer ${authToken}` } }),
+          fetch(`${BACKEND_URL}/dasein-sessions`, { headers: { Authorization: `Bearer ${authToken}` } }),
+          fetch(`${BACKEND_URL}/njta-report`, { headers: { Authorization: `Bearer ${authToken}` } }),
+        ]);
+        if (cancelled) return;
+        if (dreamRes.ok) { const d = await dreamRes.json(); setDreamEntries(d.entries || []); }
+        if (daseinRes.ok) { const d = await daseinRes.json(); setDaseinSessions(d.sessions || []); }
+        if (njtaRes.ok) { const d = await njtaRes.json(); setNjtaReport(d.njtaReport || null); }
+      } catch (err) {
+        // Non-fatal — the apps still work from whatever's currently in local state,
+        // just won't reflect the server until the next successful load.
+        console.error("Failed to load saved journal/session data:", err);
+      }
+    })();
+    return () => { cancelled = true; };
+  }, [currentUser?.id, authToken]);
 
   // Tier 1 = no account. Tier 2 = signed up (free). Tier 3 = premium subscriber.
   // currentUser.tier only exists once someone has upgraded past the free default.
@@ -2638,39 +2776,16 @@ export default function IntraSelf() {
     document.body.style.margin = "0";
   }, []);
 
-  // Rehydrates from the backend once on mount if a session token exists — confirms
-  // the token is still valid server-side (rather than trusting localStorage forever,
-  // per the old caveat above) and refreshes njtaReport/dreamEntries/daseinSessions
-  // with whatever's actually saved. Runs silently in the background: the UI renders
-  // immediately from local/cached state and updates in place if this returns something
-  // different, so a slow or unreachable backend never blocks the app from opening.
-  useEffect(() => {
-    if (!authToken) return;
-    let cancelled = false;
-    apiRequest("/me", { token: authToken })
-      .then(data => {
-        if (cancelled) return;
-        setCurrentUser(data.user);
-        setNjtaReport(data.njtaReport);
-        setDreamEntries(data.dreamEntries);
-        setDaseinSessions(data.daseinSessions);
-        saveSession(authToken, data.user);
-      })
-      .catch(err => {
-        // Invalid/expired token or unreachable server — fall back to whatever was
-        // cached locally rather than forcing a sign-out on a transient network blip.
-        console.error("Session rehydration failed:", err.message);
-      });
-    return () => { cancelled = true; };
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  // Which user fields the backend's PATCH /api/account understands — used to diff old
+  // vs. new user objects so updateUser only sends what actually changed. tier/
+  // billingPlan/subscribedAt are deliberately excluded — those are only ever granted
+  // server-side (promo redemption, cancellation), never PATCHable from here.
+  const ACCOUNT_SYNC_FIELDS = ["avatarPreset", "avatarImage", "chosenAnalystId"];
 
   // Single path for any change to the signed-in user — always keeps React state,
   // localStorage, and the backend in sync, whether the change came from auth, an
-  // avatar edit, a tier upgrade/cancellation, or picking a DreamMeaning analyst.
-  // Accepts either a partial update object or an updater function (same two shapes
-  // setState itself accepts). The PATCH to /api/account only sends fields that
-  // actually changed, computed against ACCOUNT_SYNC_FIELDS.
+  // avatar edit, or picking a DreamMeaning analyst. Accepts either a partial update
+  // object or an updater function (same two shapes setState itself accepts).
   const updateUser = (updater) => {
     setCurrentUser(u => {
       const updated = typeof updater === "function" ? updater(u) : { ...u, ...updater };
@@ -2681,45 +2796,24 @@ export default function IntraSelf() {
           if (updated?.[f] !== u?.[f]) diff[f] = updated[f];
         }
         if (Object.keys(diff).length) {
-          apiRequest("/account", { method: "PATCH", body: diff, token: authToken })
-            .catch(err => console.error("Account sync failed:", err.message));
+          fetch(`${BACKEND_URL}/account`, {
+            method: "PATCH",
+            headers: { "Content-Type": "application/json", Authorization: `Bearer ${authToken}` },
+            body: JSON.stringify(diff),
+          }).catch(err => console.error("Account sync failed:", err));
         }
       }
       return updated;
     });
   };
 
-  // Wraps setNjtaReport/setDreamEntries/setDaseinSessions so every app component
-  // keeps calling its setter exactly as before, with the backend sync layered on
-  // top rather than threaded through each component individually.
-  const syncedSetNjtaReport = (report) => {
-    setNjtaReport(report);
-    if (authToken && report) {
-      apiRequest("/njta-report", { method: "PUT", body: report, token: authToken })
-        .catch(err => console.error("NJTA report sync failed:", err.message));
-    }
-  };
-  const syncedSetDreamEntries = (updater) => {
-    setDreamEntries(prev => {
-      const updated = typeof updater === "function" ? updater(prev) : updater;
-      if (authToken) syncDreamEntries(prev, updated, authToken);
-      return updated;
-    });
-  };
-  const syncedSetDaseinSessions = (updater) => {
-    setDaseinSessions(prev => {
-      const updated = typeof updater === "function" ? updater(prev) : updater;
-      if (authToken) syncDaseinSessions(prev, updated, authToken);
-      return updated;
-    });
-  };
-
-  // Handles the redirect back from Stripe Checkout. On success, force-refreshes from
-  // /api/me right away rather than waiting for the next natural rehydration — the
-  // webhook that actually grants tier 3 fires around the same time as this redirect,
-  // so there's a small race; a couple of quick retries covers the common case where
-  // the webhook hasn't landed yet by the time this runs. Either way the query param
-  // is stripped from the URL afterward so a refresh doesn't re-trigger this.
+  // Handles the redirect back from Stripe Checkout. On success, re-fetches the user
+  // (for the new tier) via GET /api/me rather than waiting for the next natural
+  // rehydration — the webhook that actually grants tier 3 fires around the same time
+  // as this redirect, so there's a small race; a couple of quick retries covers the
+  // common case where the webhook hasn't landed yet by the time this runs. Either way
+  // the query param is stripped from the URL afterward so a refresh doesn't re-trigger
+  // this.
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const checkout = params.get("checkout");
@@ -2729,36 +2823,21 @@ export default function IntraSelf() {
 
     let attempt = 0;
     const tryRefresh = () => {
-      apiRequest("/me", { token: authToken })
+      fetch(`${BACKEND_URL}/me`, { headers: { Authorization: `Bearer ${authToken}` } })
+        .then(res => res.json())
         .then(data => {
+          if (!data.user) return;
           setCurrentUser(data.user);
-          setNjtaReport(data.njtaReport);
-          setDreamEntries(data.dreamEntries);
-          setDaseinSessions(data.daseinSessions);
           saveSession(authToken, data.user);
           setAccountView("profile");
           // Webhook may not have landed yet on the very first check — retry briefly.
           if (data.user.tier < 3 && attempt < 4) { attempt++; setTimeout(tryRefresh, 1500); }
         })
-        .catch(err => console.error("Post-checkout refresh failed:", err.message));
+        .catch(err => console.error("Post-checkout refresh failed:", err));
     };
     tryRefresh();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
-
-  // Cancels the actual Stripe subscription via the backend (which also downgrades the
-  // DB row), then applies whatever it returns locally — replaces the old local-only
-  // "just set tier back to 2" stub now that there's a real subscription to cancel.
-  const cancelSubscription = async () => {
-    if (!authToken) return;
-    try {
-      const data = await apiRequest("/cancel-subscription", { method: "POST", token: authToken });
-      setCurrentUser(data.user);
-      saveSession(authToken, data.user);
-    } catch (err) {
-      console.error("Cancellation failed:", err.message);
-    }
-  };
 
   const handleAuth = (user, token) => {
     setCurrentUser(user);
@@ -2793,6 +2872,7 @@ export default function IntraSelf() {
     <AccountProfile
       user={currentUser}
       tier={tier}
+      authToken={authToken}
       njtaReport={njtaReport}
       dreamEntries={dreamEntries}
       daseinSessions={daseinSessions}
@@ -2800,16 +2880,26 @@ export default function IntraSelf() {
       onBack={()=>setAccountView(null)}
       onUpdateUser={(updates)=>updateUser(updates)}
       onUpgradeClick={()=>setAccountView("payment")}
-      onCancelPremium={cancelSubscription}
+      onCancelPremium={()=>{
+        fetch(`${BACKEND_URL}/cancel-subscription`, {
+          method: "POST",
+          headers: { Authorization: `Bearer ${authToken}` },
+        })
+          .then(res => res.json())
+          .then(data => { if (data.user) updateUser(data.user); })
+          .catch(err => console.error("Cancellation failed:", err));
+      }}
+      onRedeemedPromo={(updatedUser)=>updateUser(updatedUser)}
+      onNavigateAway={()=>{ setAccountView(null); setActive(null); }}
     />
   );
 
   if (!active) return <HomePage onSelect={handleSelect} user={currentUser} onAccountClick={()=>setAccountView(currentUser ? "profile" : "auth")} />;
   return (
     <AppShell active={active} onHome={() => setActive(null)}>
-      {active === "njta"   && <NJTAApp savedReport={njtaReport} setSavedReport={syncedSetNjtaReport} tier={tier} />}
-      {active === "dream"  && <DreamApp savedEntries={dreamEntries} setSavedEntries={syncedSetDreamEntries} tier={tier} chosenAnalystId={currentUser?.chosenAnalystId} setChosenAnalystId={(id)=>updateUser(u=>u?{...u, chosenAnalystId:id}:u)} />}
-      {active === "dasein" && <DaseinApp savedSessions={daseinSessions} setSavedSessions={syncedSetDaseinSessions} tier={tier} />}
+      {active === "njta"   && <NJTAApp savedReport={njtaReport} setSavedReport={setNjtaReport} tier={tier} authToken={authToken} />}
+      {active === "dream"  && <DreamApp savedEntries={dreamEntries} setSavedEntries={setDreamEntries} tier={tier} chosenAnalystId={currentUser?.chosenAnalystId} setChosenAnalystId={(id)=>updateUser(u=>u?{...u, chosenAnalystId:id}:u)} authToken={authToken} />}
+      {active === "dasein" && <DaseinApp savedSessions={daseinSessions} setSavedSessions={setDaseinSessions} tier={tier} authToken={authToken} />}
     </AppShell>
   );
 }
