@@ -2513,6 +2513,10 @@ function AccountProfile({ user, tier, authToken, onLogout, onBack, onUpdateUser,
           <div style={{ fontSize:10, letterSpacing:"0.15em", textTransform:"uppercase", color:"#3A3A48", fontFamily:"sans-serif", marginBottom:10 }}>About</div>
           <div style={{ fontSize:11, color:"#4A4A5A", fontFamily:"sans-serif", marginBottom:6 }}>IntraSelf™ · Version {APP_VERSION}</div>
           <div style={{ fontSize:11, color:"#4A4A5A", fontFamily:"sans-serif", marginBottom:6 }}>
+            A product of{" "}
+            <a href="https://psychicalarts.com" target="_blank" rel="noopener noreferrer" style={{color:"#4A4A5A", textDecoration:"underline", textUnderlineOffset:"2px"}}>Psychical Arts LLC</a>
+          </div>
+          <div style={{ fontSize:11, color:"#4A4A5A", fontFamily:"sans-serif", marginBottom:6 }}>
             <a href="https://intraself.net/terms" target="_blank" rel="noopener noreferrer" style={{color:"#4A4A5A", textDecoration:"underline", textUnderlineOffset:"2px"}}>intraself.net/terms</a>
             {" · "}
             <a href="https://intraself.net/privacy" target="_blank" rel="noopener noreferrer" style={{color:"#4A4A5A", textDecoration:"underline", textUnderlineOffset:"2px"}}>intraself.net/privacy</a>
